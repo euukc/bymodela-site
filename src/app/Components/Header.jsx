@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function Header() {
     return (
-        <section className="w-full h-[80px] flex justify-around items-center">
+        <section className="w-full h-[80px] flex flex-col md:flex-row md:justify-around justify-center items-center">
             <div className="text-[36px]">
                 By <span className="text-[#7042ccff]">Modela</span>
             </div>
