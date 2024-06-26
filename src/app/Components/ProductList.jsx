@@ -16,7 +16,7 @@ export default function ProductList({ category }) {
         products;
 
     return (
-        <div className="p-2 flex flex-wrap gap-4 ml-[30px]">
+        <div data-aos="fade-left" className="p-2 flex flex-wrap gap-4 ml-[30px]">
             {filteredProducts.map(product => (
                 <ProductItem key={product.name} {...product} />
             ))}
