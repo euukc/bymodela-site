@@ -8,10 +8,9 @@ export default function Header() {
                 By <span className="text-[#7042ccff]">Modela</span>
             </div>
             <div className="flex justify-center items-center gap-2">
-                <Image src="/instagram-logo.png" width={20} height={15} alt="Instagram Logo" />
-                <Image src="/icons8-whatsapp-50.png" width={20} height={15} alt="WhatsApp Logo" />                
+                <Image src="/instagram-logo.png" width={20} height={15} alt="Instagram Logo" className='cursor-pointer' />
+                <Image src="/icons8-whatsapp-50.png" width={20} height={15} alt="WhatsApp Logo" className='cursor-pointer' />                
             </div>
-
         </section>
     )
 }

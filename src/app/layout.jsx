@@ -1,5 +1,9 @@
 import { Sora } from "next/font/google";
 import "./globals.css";
+import "./styles/mobile.css";
+import Header from "./Components/Header";
+import Nav from "./Components/Nav";
+
 
 const sora = Sora({ subsets: ["latin"], weight: ['600'] });
 
@@ -11,7 +15,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
-      <body className={sora.className}>{children}</body>
+      <body className={sora.className}>
+        <Header />
+        {children}
+        <Nav />
+      </body>
     </html>
   );
 }
