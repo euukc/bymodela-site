@@ -12,7 +12,7 @@ export default function About() {
                 <div className="flex gap-x-4 flex-wrap justify-center gap-y-2">
                     <div className="border-r-2 md:border-r-4 px-2 text-start">
                         <span className="text-[#7042ccff] md:text-[36px]">1+</span>
-                        <p className="text-[10px] md:text-[12px]">ANOS DE EXPERIÊNCIA</p>
+                        <p className="text-[10px] md:text-[12px]">ANO DE EXPERIÊNCIA</p>
                     </div>
                     <div className="border-r-2 md:border-r-4 pr-2 text-start">
                         <span className="text-[#7042ccff] md:text-[36px]">650+</span>
