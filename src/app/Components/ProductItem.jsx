@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function ProductItem({name, image, price, description}) {
     return (
         <div className="flex flex-col w-full">
