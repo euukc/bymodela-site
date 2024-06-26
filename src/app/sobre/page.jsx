@@ -15,11 +15,11 @@ export default function About() {
                         <p className="text-[10px] md:text-[12px]">ANO DE EXPERIÊNCIA</p>
                     </div>
                     <div className="border-r-2 md:border-r-4 pr-2 text-start">
-                        <span className="text-[#7042ccff] md:text-[36px]">650+</span>
+                        <span className="text-[#7042ccff] md:text-[36px]">1000+</span>
                         <p className="text-[10px] md:text-[12px]">CLIENTES SATISFEITOS</p>
                     </div>
                     <div className="border-r-2 md:border-r-4 pr-2 text-start">
-                        <span className="text-[#7042ccff] md:text-[36px]">100+</span>
+                        <span className="text-[#7042ccff] md:text-[36px]">500+</span>
                         <p className="text-[10px] md:text-[12px]">PROJETOS FINALIZADOS</p>
                     </div>
                     <div>

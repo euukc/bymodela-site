@@ -5,7 +5,7 @@ import Header from "./Components/Header";
 import Nav from "./Components/Nav";
 
 
-const sora = Sora({ subsets: ["latin"], weight: ['600'] });
+const sora = Sora({ subsets: ["latin"], weight: ['800'] });
 
 export const metadata = {
   title: "By Modela",
