@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Vakinha Divertida Mente 2",
+        "image": "/teste1.png",
+        "price": "R$40",
+        "description": "Vakinha do Divertida Mente 2, composta por 10 chaveiros e 1 porta treco em formato STL.",
+        "category": "TODOS"
+    },
+    {
+        "name": "Vakinha do Mario",
+        "image": "/teste1.png",
+        "price": "R$55",
+        "description": "Pack de Chaveiros do Mário World, composto por 15 chaveiros em formato STL",
+        "category": "VAKINHAS ABERTAS"
+    },
+    {
+        "name": "Vakinha do Mario",
+        "image": "/teste1.png",
+        "price": "R$55",
+        "description": "Pack de Chaveiros do Mário World, composto por 15 chaveiros em formato STL",
+        "category": "PACKS DE CHAVEIROS"
+    },
+    {
+        "name": "Vakinha do Mario",
+        "image": "/teste1.png",
+        "price": "R$55",
+        "description": "Pack de Chaveiros do Mário World, composto por 15 chaveiros em formato STL",
+        "category": "PACKS DE CONTROLES"
+    },
+    {
+        "name": "Vakinha do Mario",
+        "image": "/teste1.png",
+        "price": "R$55",
+        "description": "Pack de Chaveiros do Mário World, composto por 15 chaveiros em formato STL",
+        "category": "CHAVEIROS AVULSOS"
+    }       
+]
