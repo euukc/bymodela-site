@@ -16,9 +16,7 @@ export default function HomePage() {
         <div className='mt-[50px] xl:mt-[175px]'>
           <Image src="/teste1.png" width={700} height={600} alt="Blonder woman with glasses"/>
         </div>
-      </div>
-      
-
+      </div>      
     </section>
   );
 }
