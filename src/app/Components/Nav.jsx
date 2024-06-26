@@ -10,7 +10,9 @@ export default function Nav() {
             <Link href="/sobre">
                 <Image src="/about.png" width={25} height={15} alt="Instagram Logo" className='cursor-pointer' />
             </Link>
-            <Image src="/product-catalog.png" width={25} height={15} alt="Instagram Logo" className='cursor-pointer ' />
+            <Link href="/catalogo">
+                <Image src="/product-catalog.png" width={25} height={15} alt="Instagram Logo" className='cursor-pointer ' />
+            </Link>
             <Image src="/whatsapp.png" width={20} height={15} alt="Instagram Logo" className='cursor-pointer' />
         </nav>
     )
