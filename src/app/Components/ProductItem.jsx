@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function ProductItem({ name, image, price, description, onAddToCart }) {
     return (
-        <div className="w-[90%] md:w-[40%] p-2 flex items-center">
+        <div className="wx-auto md:w-[40%] p-2 flex items-center">
             <div className="flex flex-col justify-center items-center mb-10 border-2 rounded-xl pb-4 bg-black/60">
                 <div className="h-full flex justify-end items-center">
                     <Image src={image} alt={name} width={350} height={100}/>
