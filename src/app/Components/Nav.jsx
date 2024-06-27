@@ -21,7 +21,7 @@ export default function Nav() {
                 <div className="relative cursor-pointer">
                     <Image src="/btn-home.png" width={23} height={15} alt="Ícone Página Inicial" />
                     {tooltipText === 'Home' && (
-                        <div className="absolute left-[-350%] top-1/2 transform -translate-y-1/2 bg-white text-black px-2 py-1 rounded-sm text-xs">
+                        <div className="absolute hidden md:block left-[-350%] top-1/2 transform -translate-y-1/2 bg-white text-black px-2 py-1 rounded-sm text-xs">
                             Home
                         </div>
                     )}
@@ -31,7 +31,7 @@ export default function Nav() {
                 <div className="relative cursor-pointer">
                     <Image src="/about.png" width={25} height={15} alt="Ícone Sobre" />
                     {tooltipText === 'Sobre' && (
-                        <div className="absolute left-[-320%] top-1/2 transform -translate-y-1/2 bg-white text-black px-2 py-1 rounded-sm text-xs">
+                        <div className="absolute hidden md:block left-[-320%] top-1/2 transform -translate-y-1/2 bg-white text-black px-2 py-1 rounded-sm text-xs">
                             Sobre
                         </div>
                     )}
@@ -41,7 +41,7 @@ export default function Nav() {
                 <div className="relative cursor-pointer">
                     <Image src="/product-catalog.png" width={25} height={15} alt="Ícone do Catálogo" />
                     {tooltipText === 'Catálogo' && (
-                        <div className="absolute left-[-400%] top-1/2 transform -translate-y-1/2 bg-white text-black px-2 py-1 rounded-sm text-xs">
+                        <div className="absolute hidden md:block left-[-400%] top-1/2 transform -translate-y-1/2 bg-white text-black px-2 py-1 rounded-sm text-xs">
                             Catálogo
                         </div>
                     )}
@@ -50,7 +50,7 @@ export default function Nav() {
             <div onMouseEnter={() => handleMouseEnter('WhatsApp')} onMouseLeave={handleMouseLeave}>
                 <Image src="/whatsapp.png" width={20} height={15} alt="Ícone de Contato" className="cursor-pointer" />
                 {tooltipText === 'WhatsApp' && (
-                    <div className="absolute left-[-102%] top-[85%] transform -translate-y-1/2 bg-white text-black px-2 py-1 rounded-sm text-xs">
+                    <div className="absolute hidden md:block left-[-102%] top-[85%] transform -translate-y-1/2 bg-white text-black px-2 py-1 rounded-sm text-xs">
                         Contato
                     </div>
                 )}
