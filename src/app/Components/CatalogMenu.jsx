@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function CatalogMenu({ categories = [], onSelectCategory }) {
     return (
-        <div data-aos="fade-right" className="w-full md:w-1/4 flex md:flex-col h-[120px] md:h-[750px] md:border-r border-gray-300 p-[4px] md:p-4">
+        <div data-aos="fade-right" className="w-full md:w-1/4 flex md:flex-col h-[120px] md:h-[750px] md:border-r border-gray-300 p-[5px] md:p-4">
             <ul className="md:space-y-2 space-y-0 flex flex-wrap justify-around items-center">
                 {categories.map(category => (
                     <li
