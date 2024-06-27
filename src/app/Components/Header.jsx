@@ -10,7 +10,7 @@ export default function Header() {
             </div>
             <div className="flex justify-center items-center gap-2">
                 <Image src="/instagram-logo.png" width={20} height={15} alt="Instagram Logo" className='cursor-pointer' />
-                <Image src="/icons8-whatsapp-50.png" width={20} height={15} alt="WhatsApp Logo" className='cursor-pointer' />                
+                <Image src="/whatsapp-header.png" width={20} height={15} alt="WhatsApp Logo" className='cursor-pointer' />                
             </div>
         </section>
     )
