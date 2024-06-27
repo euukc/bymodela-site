@@ -16,11 +16,18 @@ export default function CatalogAll() {
     };
 
     const handleAddToCart = (product) => {
-        setCartItems([...cartItems, product]);
+        const isAlreadyInCart = cartItems.some(item => item.name === product.name);
+        if (!isAlreadyInCart) {
+            setCartItems([...cartItems, product]);
+        }
     };
 
     const handleCartToggle = () => {
         setIsCartVisible(!isCartVisible);
+    };
+
+    const RemoveFromCart = (index) => {
+        setCartItems(cartItems.filter((_, i) => i !== index));
     };
 
 
@@ -35,7 +42,7 @@ export default function CatalogAll() {
             <button onClick={handleCartToggle} className="fixed bottom-4 right-4 bg-[#7042ccff] text-white p-4 rounded-full">
                 <img src="/carrinho-compras.png" alt="Verificar o Carrinho de Compras"/>
             </button>
-            <Cart isVisible={isCartVisible} onClose={handleCartToggle} cartItems={cartItems} />
+            <Cart isVisible={isCartVisible} onClose={handleCartToggle} cartItems={cartItems} onRemoveFromCart={RemoveFromCart} />
         </div>
     );
 }

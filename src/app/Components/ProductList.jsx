@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ProductItem from './ProductItem';
 
-export default function ProductList({ category }) {
+export default function ProductList({ category, onAddToCart }) {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
@@ -16,9 +16,9 @@ export default function ProductList({ category }) {
         products;
 
     return (
-        <div data-aos="fade-left" className="p-2 flex flex-wrap gap-4 ml-[30px]">
+        <div data-aos="fade-left" className="p-2 flex flex-wrap gap-4">
             {filteredProducts.map(product => (
-                <ProductItem key={product.name} {...product} />
+                  <ProductItem key={product.name} {...product} onAddToCart={() => onAddToCart(product)} />
             ))}
         </div>
     );
