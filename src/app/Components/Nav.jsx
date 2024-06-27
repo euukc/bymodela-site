@@ -16,7 +16,7 @@ export default function Nav() {
     };
 
     return (
-        <nav className='navbar flex flex-col items-center justify-between gap-y-10 px-4 py-6 md:py-8 mt-[80px] bg-white/10 backdrop-blue-sm text-3xl xl:text-xl rounded-full md:my-[20px] md:mr-[20px] fixed left-[28px] md:left-[1830px] md:right-0 top-[80%] md:top-[35%]'>
+        <nav className='navbar flex md:flex-col items-center justify-between gap-y-10 px-4 py-6 md:py-8 mt-[80px] bg-white/10 backdrop-blue-sm text-3xl xl:text-xl rounded-full md:my-[20px] md:mr-[20px] fixed left-[40px] md:left-[1830px] md:right-0 top-[80%] md:top-[35%] w-[80%] md:w-[70px]'>
             <Link href="/" onMouseEnter={() => handleMouseEnter('Home')} onMouseLeave={handleMouseLeave}>
                 <div className="relative cursor-pointer">
                     <Image src="/btn-home.png" width={23} height={15} alt="Ícone Página Inicial" />
