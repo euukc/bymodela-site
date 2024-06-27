@@ -39,7 +39,7 @@ export default function CatalogAll() {
                     <ProductList category={selectedCategory} onAddToCart={handleAddToCart} />
                 </div>
             </div>
-            <button onClick={handleCartToggle} className="fixed bottom-4 right-4 bg-[#7042ccff] text-white p-4 rounded-full">
+            <button onClick={handleCartToggle} className="fixed md:bottom-4 bottom-20 right-4 bg-[#7042ccff] text-white p-4 rounded-full">
                 <img src="/carrinho-compras.png" alt="Verificar o Carrinho de Compras"/>
             </button>
             <Cart isVisible={isCartVisible} onClose={handleCartToggle} cartItems={cartItems} onRemoveFromCart={RemoveFromCart} />
