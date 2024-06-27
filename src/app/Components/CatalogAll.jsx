@@ -35,7 +35,7 @@ export default function CatalogAll() {
         <div className="relative">
             <div className="flex md:flex-row flex-col mx-auto">
                 <CatalogMenu categories={categories} onSelectCategory={handleCategorySelect} />
-                <div className="w-3/4">
+                <div className="">
                     <ProductList category={selectedCategory} onAddToCart={handleAddToCart} />
                 </div>
             </div>
