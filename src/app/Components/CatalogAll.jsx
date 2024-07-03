@@ -30,12 +30,11 @@ export default function CatalogAll() {
         setCartItems(cartItems.filter((_, i) => i !== index));
     };
 
-
     return (
         <div className="relative">
             <div className="flex md:flex-row flex-col mx-auto">
                 <CatalogMenu categories={categories} onSelectCategory={handleCategorySelect} />
-                <div className="">
+                <div>
                     <ProductList category={selectedCategory} onAddToCart={handleAddToCart} />
                 </div>
             </div>
