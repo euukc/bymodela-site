@@ -7,22 +7,12 @@
   padding: 0;
   box-sizing: border-box;
   color: white;
-  
-  
+
+
 }
 
-body, html {
-  /*background-color: rgb(41, 41, 42);    */
-  background-image: url(/bg.jpg);
-  background-position: center;
-  background-size: cover;
+body,
+html {
+  background-color: rgb(41, 41, 42); 
+
 }
-
-
-
-
-
-
-
-
-
