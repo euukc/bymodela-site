@@ -11,27 +11,27 @@
         "image": "/teste1.png",
         "price": "R$40",
         "description": "Pack de Chaveiros do Mário World, composto por 15 chaveiros em formato STL",
-        "category": "VAKINHAS ABERTAS"
+        "category": "PACKS DE CHAVEIROS"
     },
     {
         "name": "Vakinha do One Piece",
         "image": "/teste1.png",
         "price": "R$55",
         "description": "Pack de Chaveiros do Mário World, composto por 15 chaveiros em formato STL",
-        "category": "PACKS DE CHAVEIROS"
+        "category": "CHAVEIROS AVULSOS"
     },
     {
         "name": "Vakinha do Harry Potter",
         "image": "/teste1.png",
         "price": "R$55",
         "description": "Pack de Chaveiros do Mário World, composto por 15 chaveiros em formato STL",
-        "category": "PACKS DE CONTROLES"
+        "category": "SUPORTE DE ALEXA"
     },
     {
         "name": "Vakinha de Natal",
         "image": "/teste1.png",
         "price": "R$55",
         "description": "Pack de Chaveiros do Mário World, composto por 15 chaveiros em formato STL",
-        "category": "CHAVEIROS AVULSOS"
+        "category": "CALENDÁRIOS"
     }       
 ]
