@@ -27,11 +27,70 @@
         "description": "Pack de Chaveiros do Mário World, composto por 15 chaveiros em formato STL",
         "category": "SUPORTE DE ALEXA"
     },
+
+    
     {
-        "name": "Vakinha de Natal",
-        "image": "/teste1.png",
+        "name": "Calendário Ansiedade",
+        "image": "/calendario-ansiedade.jpg",
         "price": "R$55",
-        "description": "Pack de Chaveiros do Mário World, composto por 15 chaveiros em formato STL",
+        "description": "----",
         "category": "CALENDÁRIOS"
-    }       
+    },      
+    {
+        "name": "Calendário Alegria",
+        "image": "/calendario-alegria.jpg",
+        "price": "R$55",
+        "description": "----",
+        "category": "CALENDÁRIOS"
+    }, 
+    {
+        "name": "Calendário Tristeza",
+        "image": "/calendario-tristeza.jpg",
+        "price": "R$55",
+        "description": "----",
+        "category": "CALENDÁRIOS"
+    },
+    {
+        "name": "Calendário Raiva",
+        "image": "/calendario-raiva.jpg",
+        "price": "R$55",
+        "description": "----",
+        "category": "CALENDÁRIOS"
+    },  
+    {
+        "name": "Calendário Nojo",
+        "image": "/calendario-nojo.jpg",
+        "price": "R$55",
+        "description": "----",
+        "category": "CALENDÁRIOS"
+    }, 
+    {
+        "name": "Calendário Tedio",
+        "image": "/calendario-tedio.jpg",
+        "price": "R$55",
+        "description": "----",
+        "category": "CALENDÁRIOS"
+    },
+    {
+        "name": "Calendário Medo",
+        "image": "/calendario-medo.jpg",
+        "price": "R$55",
+        "description": "----",
+        "category": "CALENDÁRIOS"
+    },  
+    {
+        "name": "Calendário Inveja",
+        "image": "/calendario-inveja.jpg",
+        "price": "R$55",
+        "description": "----",
+        "category": "CALENDÁRIOS"
+    }, 
+    {
+        "name": "Calendário Vergonha",
+        "image": "/calendario-vergonha.jpg",
+        "price": "R$55",
+        "description": "----",
+        "category": "CALENDÁRIOS"
+    }
+    
 ]
