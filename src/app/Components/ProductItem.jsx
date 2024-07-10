@@ -17,7 +17,7 @@ export default function ProductItem({ name, image, price, description, onAddToCa
                 <div className="h-full flex justify-end items-center">
                     <Image className="w-[400px] h-[350px] rounded-lg" src={image} alt={name} width={450} height={90}/>
                 </div>
-                <div className="flex flex-col items-center gap-2 mt-[20px] lg:px-[20px]">
+                <div className="flex flex-col items-center gap-2 mt-[20px]">
                     <strong className="lg:text-[30px] text-center">{name}</strong>
                     <p className="text-[13px] lg:text-[sm] text-center">{description}</p>
                     <p className="text-[15px] lg:text-[16px] text-green-500">{price}</p>
