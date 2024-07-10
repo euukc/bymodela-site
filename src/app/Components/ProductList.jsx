@@ -16,7 +16,7 @@ export default function ProductList({ category, onAddToCart }) {
         products;
 
     return (
-        <div data-aos="fade-left" className="p-2 flex flex-wrap md:flex-row gap-4 w-full md:w-[1300px] mx-auto">
+        <div data-aos="fade-left" className="p-2 flex md:justify-start justify-center flex-wrap md:flex-row gap-4 w-full md:w-[1300px] mx-auto">
             {filteredProducts.map(product => (
                   <ProductItem key={product.name} {...product} onAddToCart={() => onAddToCart(product)} />
             ))}
