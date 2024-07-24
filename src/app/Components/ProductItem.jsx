@@ -12,10 +12,10 @@ export default function ProductItem({ name, image, price, description, onAddToCa
 
     
     return (
-        <div className="wx-auto md:w-[30%] w-[350px] p-2 flex items-center">
+        <div className="wx-auto md:w-[30%] w-[320px] p-2 flex items-center">
             <div className="flex flex-col justify-center items-center mb-10 border-2-0 rounded-xl pb-4 bg-black/60">
                 <div className="h-full flex justify-end items-center">
-                    <Image className="w-[400px] h-[300px] md:h-[350px] rounded-lg" src={image} alt={name} width={450} height={90}/>
+                    <Image className="md:w-[400px] w-[300px] h-[300px] md:h-[350px] rounded-lg" src={image} alt={name} width={450} height={90}/>
                 </div>
                 <div className="flex flex-col items-center mt-[20px]">
                     <strong className="lg:text-[23px] text-center">{name}</strong>
