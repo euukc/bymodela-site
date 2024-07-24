@@ -30,65 +30,72 @@
 
     
     {
+        "name": "Kit de Calendários",
+        "image": "/kit-calendarios.png",
+        "price": "R$90",
+        "description": "-----",
+        "category": "CALENDÁRIOS"
+    }, 
+    {
         "name": "Calendário Ansiedade",
         "image": "/calendario-ansiedade.jpg",
-        "price": "R$55",
+        "price": "R$15",
         "description": "----",
         "category": "CALENDÁRIOS"
     },      
     {
         "name": "Calendário Alegria",
         "image": "/calendario-alegria.jpg",
-        "price": "R$55",
+        "price": "R$15",
         "description": "----",
         "category": "CALENDÁRIOS"
     }, 
     {
         "name": "Calendário Tristeza",
         "image": "/calendario-tristeza.jpg",
-        "price": "R$55",
+        "price": "R$15",
         "description": "----",
         "category": "CALENDÁRIOS"
     },
     {
         "name": "Calendário Raiva",
         "image": "/calendario-raiva.jpg",
-        "price": "R$55",
+        "price": "R$15",
         "description": "----",
         "category": "CALENDÁRIOS"
     },  
     {
-        "name": "Calendário Nojo",
+        "name": "Calendário Nojinho",
         "image": "/calendario-nojo.jpg",
-        "price": "R$55",
+        "price": "R$15",
         "description": "----",
         "category": "CALENDÁRIOS"
     }, 
     {
-        "name": "Calendário Tedio",
+        "name": "Calendário Tédio",
         "image": "/calendario-tedio.jpg",
-        "price": "R$55",
+        "price": "R$15",
         "description": "----",
         "category": "CALENDÁRIOS"
     },
     {
         "name": "Calendário Medo",
         "image": "/calendario-medo.jpg",
-        "price": "R$55",
+        "price": "R$15",
         "description": "----",
         "category": "CALENDÁRIOS"
     },  
     {
         "name": "Calendário Inveja",
         "image": "/calendario-inveja.jpg",
-        "price": "R$55",
+        "price": "R$15",
         "description": "----",
         "category": "CALENDÁRIOS"
     }, 
     {
         "name": "Calendário Vergonha",
         "image": "/calendario-vergonha.jpg",
-        "price": "R$55",
+        "price": "R$15",
         "description": "----",
         "category": "CALENDÁRIOS"
     }

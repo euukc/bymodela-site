@@ -41,7 +41,7 @@ export default function Cart({ isVisible, onClose, cartItems, onRemoveFromCart, 
                 <p className="font-bold text-black">Total: <span>R${cartItems.reduce((total, item) => total + parseFloat(item.price.replace('R$', '').replace(',', '.').trim()), 0).toFixed(2)}</span></p>
 
                 <div className="flex items-center justify-around md:mt-[100px] mt-[50px] w-full flex-wrap flex-col-reverse gap-4 ">
-                    <button onClick={onClose} className="text-black">Voltar</button>
+                    <button onClick={onClose} className="text-black">Fechar</button>
                     <button onClick={clickBtnWpp} className="bg-[#7042ccff] text-white px-4 py-1 rounded">Finalizar pedido</button>
                 </div>
             </div>

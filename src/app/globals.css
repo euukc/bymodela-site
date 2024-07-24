@@ -6,8 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: white;
-
+  color: white;  
 
 }
 
@@ -15,6 +14,14 @@ body,
 html {
   /*background-color: rgb(41, 41, 42); */
   background-color: #220b42ff;
- 
+  
+}
 
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+@media(max-width: 480px) {
+  
 }

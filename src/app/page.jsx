@@ -16,7 +16,7 @@ export default function Home() {
 
   return (
     <main className="flex flex-col justify-center items-center mb-[100px] md:mb-0">      
-      <HomePage />     
+      <HomePage />    
       
     </main>
   );
