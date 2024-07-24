@@ -5,15 +5,15 @@ import { faTrash } from '@fortawesome/free-solid-svg-icons';
 export default function Cart({ isVisible, onClose, cartItems, onRemoveFromCart, onCheckout }) {
 
     const clickBtnWpp = () => {
-        const phoneNumber = '5511948410026';
+        const number = '5511948410026';
 
-        const message = `Olá, esse é o meu pedido realizado por meio do site ByModela: ----- ` +
-            `${cartItems.map(item => `Produto: ${item.name} - Preço: ${item.price}`)} ------------` +
-            ` Valor Total: R$ ${cartItems.reduce((total, item) => total + parseFloat(item.price.replace('R$', '').replace(',', '.').trim()), 0).toFixed(2)}` +
-            ` ------------ Forma de pagamento: PIX --- Chave PIX: 11948410026 (PicPay)`;
+        const message = `Olá, esse é o meu pedido realizado por meio do site ByModela:\n\n` +
+            `${cartItems.map(item => `Produto: ${item.name} - Preço: ${item.price}`).join('\n')}\n\n` +
+            `Valor Total: R$ ${cartItems.reduce((total, item) => total + parseFloat(item.price.replace('R$', '').replace(',', '.').trim()), 0).toFixed(2)}\n\n` +
+            `Forma de pagamento: PIX\nChave PIX: 11948410026 (PicPay)`;
 
         const encodedMessage = encodeURI(message);
-        const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodedMessage}`;
+        const url = `https://api.whatsapp.com/send?phone=${number}&text=${encodedMessage}`;
 
         window.open(url, '_blank');
     };
@@ -42,7 +42,7 @@ export default function Cart({ isVisible, onClose, cartItems, onRemoveFromCart, 
 
                 <div className="flex items-center justify-around md:mt-[100px] mt-[50px] w-full flex-wrap flex-col-reverse gap-4 ">
                     <button onClick={onClose} className="text-black">Fechar</button>
-                    <button onClick={clickBtnWpp} className="bg-[#7042ccff] text-white px-4 py-1 rounded">Finalizar pedido</button>
+                    <button onClick={clickBtnWpp} className="bg-[#7042ccff] text-white px-4 py-1 rounded" disabled={cartItems.length === 0}>Finalizar pedido</button>
                 </div>
             </div>
         </aside>

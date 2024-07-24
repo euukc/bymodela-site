@@ -7,7 +7,7 @@ export default function ProductItem({ name, image, price, description, onAddToCa
     const cartAdded = () => {
         onAddToCart(); 
         setIsAddToCart(true);
-        setTimeout(() => setIsAddToCart(false), 1000);
+        setTimeout(() => setIsAddToCart(false), 2000);
     };
 
     
